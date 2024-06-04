@@ -1,5 +1,5 @@
 ! The diameter of the particles is used as unit length.
-! Ramon Castaneda Priego. 25.09.2018
+! Fidencio Pérez-Hernández 25.09.2022
  	implicit double precision(a-h,o-z)
 	parameter(mp=1000000,mr=2**11,nmq=2**6,nvq=200)
 	dimension x(mp),y(mp),z(mp)
