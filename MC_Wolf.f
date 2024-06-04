@@ -92,7 +92,7 @@ do i = 1, mr
     g12(i) = 0.d0
     g22(i) = 0.d0
 enddo
-
+print *, 'Calculating g(r)...'
 do j = 1, 3000000
     call mcmove(x, y, z, ener, nattemp, nacc, del, iseed)
     call adjust(nattemp, nacc, del)
