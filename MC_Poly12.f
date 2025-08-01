@@ -218,6 +218,7 @@ c MC cycle to calculate the g(r)
 	    !print*, s
 	    !ncp1=ncp1+1
 	    endif
+           if (mod(i,500000) .eq. 0) print*,i,del,ener/real(np),accept
 	  enddo
 	  
 	  do k=2,nmq
